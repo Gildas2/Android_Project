@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_log"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_log"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.forgodav.tache.SplashActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.forgodav.tache.MainActivity" />
+    </application>
+
+</manifest>
